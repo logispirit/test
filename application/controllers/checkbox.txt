@@ -1,0 +1,111 @@
+if($this->input->post('Proposal')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Proposal" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Pre_Feasibilty')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Pre-Feasibilty" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Feasibilty')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Feasibilty" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Detailed_Design')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Detailed Design" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Post_Evaluation')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Post Evaluation" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Data_Collection')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Data Collection" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Highway')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Highway" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Structural')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Structural" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Hydrology')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Hydrology" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Geotechnical')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Geotechnical" , 
+			);
+
+			$result= $this->Home_model->addProjectSubCategory($data1);
+			
+		}
+		if($this->input->post('Social')){
+
+			$data1 = array(
+				'project_id' =>$project_id ,
+				'sub_name' =>"Social" , 
+			);
+
+			$result1= $this->Home_model->addProjectSubCategory($data1);
+
+			
+		}

@@ -1,0 +1,3 @@
+$str_two ='0123456789';
+        	$str_two= str_shuffle($str_two);
+        	$project_id=substr($str_two,0,7);
